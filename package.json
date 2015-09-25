@@ -1,0 +1,54 @@
+{
+	"name": "nativescript-ddp",
+	"version": "1.0.0",
+	"description": "A NativeScript DDP module",
+	"main": "nativescript-ddp.js",
+	"nativescript": {
+		"platforms": {
+			"android": "0.0.1",
+			"ios": "0.0.1"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "N/A"
+	},
+	"keywords": [
+    "NativeScript", "Meteor", "DDP", "JavaScript", "Android", "iOS"
+  ],
+	"author": {
+		"name": "Emmanuel Buah",
+		"email": "emmanuelbuah@gmail.com"
+	},
+	"bugs": {
+		"url": "N/A"
+	},
+	"license": {
+		"type": "MIXED",
+		"url": "N/A"
+	},
+	"homepage": "N/A",
+	"readmeFilename": "README.md",
+	"devDependencies": {
+		"babel": "^5.6.14",
+		"babel-core": "^5.6.17",
+		"babel-loader": "^5.3.1",
+		"chai": "^3.0.0",
+		"coveralls": "^2.11.2",
+		"eslint": "^0.24.1",
+		"gulp": "^3.9.0",
+		"gulp-eslint": "^0.15.0",
+		"gulp-spawn-mocha": "^2.2.1",
+		"gulp-util": "^3.0.6",
+		"istanbul": "^0.3.17",
+		"mocha": "^2.2.5",
+		"node-libs-browser": "^0.5.2",
+		"sinon": "^1.15.4",
+		"sinon-chai": "^2.8.0",
+		"webpack": "^1.10.1"
+	},
+	"dependencies": {
+		"wolfy87-eventemitter": "^4.2.11",
+		"nativescript-websockets" : "^1.0.0"
+	}
+}
